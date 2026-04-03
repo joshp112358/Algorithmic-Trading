@@ -1,0 +1,30 @@
+Beginning AutoGluon training...
+AutoGluon will save models to 'c:\Users\piotr\Documents\GitHub\Algorithmic-Trading\AutogluonModels\ag-20250718_011633'
+=================== System Info ===================
+AutoGluon Version:  1.3.1
+Python Version:     3.12.7
+Operating System:   Windows
+Platform Machine:   AMD64
+Platform Version:   10.0.19045
+CPU Count:          12
+GPU Count:          1
+Memory Avail:       4.84 GB / 15.93 GB (30.4%)
+Disk Space Avail:   118.15 GB / 465.76 GB (25.4%)
+===================================================
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAE,
+ 'hyperparameters': {'Chronos-T5': {'fine_tune': True,
+                                    'model_path': 'chronos-t5-small'}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 1,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
